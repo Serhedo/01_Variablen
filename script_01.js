@@ -45,10 +45,15 @@
 
 /***** 03a Konstanten *******/
 
-let test ="Max"; // Deklaration + Wertzuweisung
-test = "Maxine";
+// let test ="Max"; // Deklaration + Wertzuweisung
+// test = "Maxine";
 
-console.log("Inhalt: " + test);
+// const test = "Max"; // Variable mit Konstantem Inhalt
+// test = "Maxine"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+
+// console.log("Inhalt: " + test);
+
+
 
 
 
