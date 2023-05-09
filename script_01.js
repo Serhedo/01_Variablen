@@ -33,7 +33,7 @@
 // console.log(firstName + " " + familyName);
 // console.log(typeof firstName);
 
-
+/* JS ist eine untypisierte Sprache! | untyped */
 
 // let test;
 // test = "Max"; //string
@@ -53,6 +53,19 @@
 
 // console.log("Inhalt: " + test);
 
+/***** 04 Beispiel - Berechnung *******/
+
+// Deklaration
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+let ageJohn, ageMark;
+
+ageJohn = 2023 - birthYearJohn;
+ageMark = 2023 - birthYearMark;
+
+//Ausgabe
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
 
 
 
